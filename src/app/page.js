@@ -9,7 +9,7 @@ function TabNavigation() {
   
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex  justify-center min-h-screen bg-gray-50">
       <div className="w-[90vw] p-8">
         <div className="relative text-center">
           {/* Tab Buttons */}
