@@ -56,7 +56,7 @@ function TabNavigation() {
 
           {/* Content Sections */}
           <div className="w-[100%] flex justify-center">
-            <div className="mt-8 text-[#2E2E4F]">
+            <div className="mt-8 text-[#2E2E4F] min-h-[800px]">
               <div
                 className={cn(
                   "transition-all duration-300",
