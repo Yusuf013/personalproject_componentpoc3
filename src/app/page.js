@@ -326,6 +326,64 @@ function TabNavigation() {
       Lees meer
     </button>
   </div>
+
+{/* zesde kaart */}
+  <div className="h-[200px] w-[80%] bg-[#E9F7E8] rounded-full flex flex-col justify-center items-center text-center p-10 mx-auto">
+  <div className="flex justify-between w-full px-6 text-sm text-gray-600">
+    <span>Lisa van Dijk</span>
+    <span>5 november 2024, 09:15</span>
+  </div>
+  <h3 className="text-lg font-bold mt-2">
+    “Wat is jouw favoriete manier om leerlingen te motiveren?”
+  </h3>
+  <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
+    <span>#Motivatie</span>
+    <span>#OnderwijsTips</span>
+    <span>#LesInzicht</span>
+  </div>
+  <button className="bg-[#CDEBD1] text-[#2E2E4F] text-sm px-4 py-2 mt-4 rounded-full hover:bg-[#B8D8BE] transition">
+    Lees meer
+  </button>
+</div>
+
+{/* zevende kaart */}
+<div className="h-[200px] w-[80%] bg-[#E8F0FA] rounded-full flex flex-col justify-center items-center text-center p-10 mx-auto">
+  <div className="flex justify-between w-full px-6 text-sm text-gray-600">
+    <span>Jan Bakker</span>
+    <span>20 oktober 2024, 16:45</span>
+  </div>
+  <h3 className="text-lg font-bold mt-2">
+    “Welke apps gebruik jij om je lessen te plannen en bij te houden?”
+  </h3>
+  <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
+    <span>#Technologie</span>
+    <span>#LessenPlannen</span>
+    <span>#Innovatie</span>
+  </div>
+  <button className="bg-[#D2E4F5] text-[#2E2E4F] text-sm px-4 py-2 mt-4 rounded-full hover:bg-[#B9D3EB] transition">
+    Lees meer
+  </button>
+</div>
+
+{/* achste kaart */}
+<div className="h-[200px] w-[80%] bg-[#F8E8F9] rounded-full flex flex-col justify-center items-center text-center p-10 mx-auto">
+  <div className="flex justify-between w-full px-6 text-sm text-gray-600">
+    <span>Emma Willems</span>
+    <span>2 december 2024, 11:50</span>
+  </div>
+  <h3 className="text-lg font-bold mt-2">
+    “Hoe help jij leerlingen met moeilijke gesprekken in de klas?”
+  </h3>
+  <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
+    <span>#Communicatie</span>
+    <span>#Empathie</span>
+    <span>#KlasManagement</span>
+  </div>
+  <button className="bg-[#E8CCE8] text-[#2E2E4F] text-sm px-4 py-2 mt-4 rounded-full hover:bg-[#D6B9D6] transition">
+    Lees meer
+  </button>
+</div>
+
 </div>
 
 
