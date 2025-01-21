@@ -9,7 +9,7 @@ function TabNavigation() {
   
 
   return (
-    <div className="flex  justify-center min-h-screen bg-gray-50">
+    <div className="flex justify-center min-h-screen bg-gray-50">
       <div className="w-[90vw] p-8">
         <div className="relative text-center">
           {/* Tab Buttons */}
@@ -307,7 +307,28 @@ function TabNavigation() {
       Lees meer
     </button>
   </div>
+
+    {/* vijfde kaart */}
+    <div className="h-[200px] w-[80%] bg-[#FCE8EA] rounded-full flex flex-col justify-center items-center text-center p-10 mx-auto">
+    <div className="flex justify-between w-full px-6 text-sm text-gray-600">
+      <span>Mark de Boer</span>
+      <span>10 september 2024, 14:30</span>
+    </div>
+    <h3 className="text-lg font-bold mt-2">
+    “Hoe maak je een rekenles leuker en interactiever voor leerlingen?”
+    </h3>
+    <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
+    <span>#Didactiek</span>
+    <span>#CreatiefLesgeven</span>
+    <span>#Inspiratie</span>
+    </div>
+    <button className="bg-[#ECDBDD] text-[#2E2E4F] text-sm px-4 py-2 mt-4 rounded-full hover:bg-[#E4D4D5] transition">
+      Lees meer
+    </button>
+  </div>
 </div>
+
+
 
 
                 </div>
