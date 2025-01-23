@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# De Leskamer Platform
 
-## Getting Started
+## Over het project
+Deze component is bedoel voor de "De LerarenKamer"-pagina waarbij je kan switchen tussen blog-tablad en een community-tabblad.
 
-First, run the development server:
+## Belangrijkste functies
+- **Blog sectie**: Artikelen met waardevolle tips en lesideeën
+- **Community sectie**: Een plek waar onderwijsprofessionals ervaringen kunnen delen
+- **Responsief ontwerp**: Volledig responsive voor alle schermformaten
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technische stack
+- Next.js
+- React
+- Tailwind CSS
+- Google Fonts (Kalam, Geist)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installatie
+1. Clone de repository
+2. Installeer de dependencies met `npm install`
+3. Start de development server met `npm run dev`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Projectstructuur
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    └── utils.js       # Utility functies
+    └── lib.js         # Algemene functies
+    └── components     # Reusable components
+    └── pages          # Pagina's
+    └── public         # Statische assets
+    └── styles         # CSS en Tailwind configuraties
+    └── types          # TypeScript typen
+    └── .env           # Environment variabelen
+    └── .gitignore     # Bestanden die niet naar GitHub gepushed moeten worden
+    └── README.md      # Dit bestand
 
-## Learn More
+## Styling
+Het project maakt gebruik van:
+- Tailwind CSS voor styling
+- Custom CSS variabelen voor thema's
+- Google Fonts (Kalam voor headers, Geist voor algemene tekst)
 
-To learn more about Next.js, take a look at the following resources:
+## Licentie
+[Voeg licentie informatie toe]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+[Voeg contact informatie toe]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    
