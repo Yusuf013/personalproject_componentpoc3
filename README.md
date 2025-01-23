@@ -38,10 +38,3 @@ Het project maakt gebruik van:
 - Custom CSS variabelen voor thema's
 - Google Fonts (Kalam voor headers, Geist voor algemene tekst)
 
-## Licentie
-[Voeg licentie informatie toe]
-
-## Contact
-[Voeg contact informatie toe]
-
-    
